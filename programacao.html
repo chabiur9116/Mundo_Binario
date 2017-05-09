@@ -1,0 +1,144 @@
+<!Doctype html>
+<html lang="pt-br">
+    <meta charset="utf-8">
+    <head>
+        <title>MB - Programação</title>
+        <link rel="icon" type="image"  href="imagens/Logo%20sem%20fundo.jpg">
+        <link rel="stylesheet" type="text/css" href="folha_de_estilo.css">
+
+        <style>
+            #fig1{
+                width: 640px;
+                height: 202px;
+                float: none;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                border: 0.5px grey solid; 
+                padding: 5px;
+            }
+            #img2{
+                width: 125px;
+                height: 100px;
+                border: 0.5px grey solid; 
+                padding: 5px; 
+                float: none;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            pullquote {
+                width: 40%;
+                float: right;
+                margin: 20px 70px;
+                padding: 5px 0 5px 5px;
+                border: solid #000;
+                border-width: 5px 0;
+                text-align: center;
+            }   
+            
+        </style>
+    </head>
+    <body>
+        <header id="topo">
+            <nav id="nav1">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="todas.html">Todas as notícias</a></li>  
+                    <li><a href="mobile.html">Tecnologias mobile</a></li> 
+                    <li><a href="games.html">Games</a></li> 
+                    <li><a href="pesquisas.html">Pesquisas científicas</a></li>
+                    <li><a href="programacao.html">Programação</a></li>
+                    <li><a href="empresas.html">Empresas</a></li>
+                    <li><a href="eventos.html">Eventos</a></li>
+                    <li><a href="fale_conosco.html">Fale conosco</a></li>
+                </ul>
+            </nav>
+            <a href="index.html" style="color: #0aaa00; text-decoration: none;"><img src="Imagens/logo1.jpg" width="770" height="250" id="logo"></a>  
+            <form class="moverdireita">
+                <input type="text" name="login" placeholder="Login" ><br>
+                <input type="password" name="password" placeholder="Senha"><br>
+                <input type="submit" name="submit" placeholder="Enviar" id="submit"><br><br>
+                <button id="cadastro"><a href="cadastro.html">Cadastre-se</a></button>
+            </form>
+        </header>
+        <nav id="nav2">
+            <h3>Programação</h3>
+            <h3>Manchetes:</h3>
+            <ul>
+                <li><a href="#noticia1">Pesquisadores da Google ensinam rede neural a desenhar</a></li>
+                <li><a href="#noticia2">Conhecimento sobre programação é diferencial no mercado de trabalho</a></li>
+                <li><a href="#noticia3">Programação na infância</a></li>
+            </ul>
+        </nav>   
+        <section id="corpo">
+            <p id="leia_todas">Leia todas as notícias desta área:</p>
+            
+            <!--notícia 1-->
+            <article id="noticia1">
+                <br>
+                <h2>Pesquisadores da Google ensinam rede neural a desenhar</h2>
+                <h5>|17/04/2017|</h5>
+                <br>
+                <p>Usando o programa do Google “Quick, Draw!”, os desenvolvedores ensinaram a rede neural a desenhar em formato vetorial através de categorias com mais de 70 mil desenhos.</p>
+                <p>O sistema aprendeu a desenhar e a unir partes de dados armazenados; David Ha, um dos responsáveis, afirmou: <q>Treinamos nosso modelo em um conjunto de dados de esboços desenhados à mão, cada um representado como uma sequência de ações motoras que controlam uma caneta: qual direção mover, quando levantar a caneta para cima e quando parar de desenhar</q>.</p>
+                <p>Além disso, o programa é capaz de reconhecer erros. A figura a seguir mostra os desenhos feitos à mão e, logo abaixo, a reconstrução feita pela rede neural; percebe-se que os erros do desenho foram corrigidos pela máquina, já que ela pode identificar que um porco não tem oito pernas e tampouco parece um caminhão.</p>
+                <figure id="fig1" style="margin-top: 15px; margin-bottom: 15px;">
+                    <img src="Imagens/desenho.jpg" alt="desenho" title="Comparação entre o desenho manual e a reconstrução virtual" id="img1">
+                    <figcaption style="text-align: center;padding:5px;">Comparação entre o desenho manual e a reconstrução virtual</figcaption>
+                </figure>
+                <br>
+                <p><strong>Fonte:</strong></p>
+                <p>https://olhardigital.uol.com.br/noticia/google-ensina-rede-neural-a-desenhar/67513 (Acesso em 17/04/2017)</p>
+                <br>
+            </article> 
+            
+            <!--notícia 2-->
+            <article id="noticia2">
+                <br>
+                <h2>Conhecimento sobre programação é diferencial no mercado de trabalho</h2>
+                <h5>|17/04/2017|</h5>
+                <br>
+                <p>No mercado atual, quanto mais habilidades, melhor. Além de conhecer outros idiomas e fazer cursos sobre empreendedorismo, saber programar é uma habilidade muito bem-vinda e abre portas para boas oportunidades de trabalho.</p>
+                <p>Vivemos em um mundo em que a tecnologia toma conta de diversos aspectos da vida; nessa realidade em que estamos, entender como funciona a programação é muito importante para o sucesso profissional.</p>
+                <p>Nos Estados Unidos da América, por exemplo, há incentivos para que crianças, desde pequenas, tenham contato com a lógica e a programação, porque, de fato, a procura por conhecedores da área só aumenta.</p>
+                <p>Especialistas da área de Ciência da Computação defendem que a programação deve ser aprendida não para ser programador, mas para desenvolver lógica, resolução de problemas, criatividade, matemática e até mesmo inglês.</p>
+                <p>Portanto, espera-se que o profissional já chegue no mercado sabendo usar um computador e programar; desenvolver tal habilidade é a chave para o sucesso na profissão.</p>
+                <br>
+                <p><strong>Fonte:</strong></p>
+                <p>http://gshow.globo.com/TV-Tem/Revista-de-Sabado/noticia/2017/03/programacao-pra-computadores-e-area-de-estudo-do-momento.html (Acesso em 17/04/2017)</p>
+                <br>
+            </article> 
+            
+            <!--notícia 3-->
+            <article id="noticia3">
+                <br>
+                <pullquote>
+                    <h3 style="color: #000;">Happy Code</h3>
+                    <p><q>Somos uma escola de tecnologia e inovação voltada para crianças e adolescentes de 5 a 17 anos.
+                    Nossa metodologia de ensino é baseada no conceito global STEAM – Science, Technology, Engineering, Arts and Math, que une o conteúdo de disciplinas fundamentais, formando alunos mais preparados e capacitados para os desafios do dia a dia.
+                    </q></p>
+                    <figure>
+                        <img src="Imagens/happy_code.png" alt="Happy Code" title="Happy Code" id=img2>
+                    </figure>
+                    <p>Conheça mais no site: <a href="http://www.happycode.com.br/" target="_blank">http://www.happycode.com.br/</a></p>
+                </pullquote>
+                <h2>Programação na infância</h2>
+                <h5>|17/04/2017|</h5>
+                <br>
+                <p>A escola de competências digitais especializada em crianças e adolescentes entre 6 e 17 anos, Happy Code, está oferecendo aulas de programação (iniciadas em 3 de abril) em uma plataforma para que os alunos aprendam a manipular o jogo Minecraft na linguagem JAVA.</p>
+                <p>O projeto permite que os jovens tenham contato desde cedo com a ciência da computação de maneira divertida e lúdica. Além disso, permite o desenvolvimento de conhecimentos sobre a linguagem, sua sintaxe e sua lógica; tais fatores são considerados diferenciais no mercado de trabalho atual.</p>
+                <br>
+                <p><strong>Fonte:</strong></p>
+                <p>https://www.tecmundo.com.br/cursos/115345-curso-online-programacao-java-minecraft-modding-oferecido-gratis.htm (Acesso em 17/04/2017)</p>
+                <br>
+            </article> 
+            
+        </section>
+        <footer>
+            <a href="#topo"><button id="volte">Volte ao topo</button></a>
+            <p>Anna Carolina</p>
+            <p>Lia Kassardjian</p>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,99 @@
+<!Doctype html>
+<html lang="pt-br">
+    <meta charset="utf-8">
+    <head>
+        <title>Bem-vindo ao Mundo Binário</title>
+        <link rel="icon" type="image"  href="imagens/Logo%20sem%20fundo.jpg">
+        <link rel="stylesheet" type="text/css" href="folha_de_estilo.css">
+        <style>
+            section#corpo{
+                padding-top: 20px;
+            }
+            section#corpo h2{
+                color: #494949;
+                margin-left: 150px;
+                margin-top: 50px;
+            }
+            .movercentro{
+                width: 800px;
+                margin: 30px auto 70px auto;
+                text-align: center;
+            }
+            .movercentro a{
+                text-decoration: none;
+            }
+            .movercentro a:hover{
+                text-decoration: underline;
+            }
+            figcaption{
+                width: 500px;
+                margin: 20px auto;
+            }
+            section#corpo a img{
+                padding: 6px;
+            }
+            section#corpo a img:hover{
+                background-color: white;
+                border: 1px solid #494949;
+                padding: 5px;
+            }
+            button#volte{
+                margin-top: 60px;
+            }
+        </style>
+    </head>
+    <body>
+        <header id="topo">
+            <nav id="nav1">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="todas.html">Todas as notícias</a></li>  
+                    <li><a href="mobile.html">Tecnologias mobile</a></li> 
+                    <li><a href="games.html">Games</a></li> 
+                    <li><a href="pesquisas.html">Pesquisas científicas</a></li>
+                    <li><a href="programacao.html">Programação</a></li>
+                    <li><a href="empresas.html">Empresas</a></li>
+                    <li><a href="eventos.html">Eventos</a></li>
+                    <li><a href="fale_conosco.html">Fale conosco</a></li>
+                </ul>
+            </nav>
+            <a href="index.html" style="color: #0aaa00; text-decoration: none;"><img src="Imagens/logo1.jpg" width="770" height="250" id="logo"></a>  
+            <form class="moverdireita">
+                <input type="text" name="login" placeholder="Login" ><br>
+                <input type="password" name="password" placeholder="Senha"><br>
+                <input type="submit" name="submit" placeholder="Enviar" id="submit"><br><br>
+                <button id="cadastro"><a href="cadastro.html">Cadastre-se</a></button>
+            </form>
+        </header>
+        <section id="nav2">
+            <h3>Bem-vindo ao Mundo Binário!</h3>
+            <p>Veja aqui notícias sobre os mais recentes acontecimentos no desenvolvimento da tecnologia!</p>
+        </section>
+        <section id="corpo">
+            <p style="margin-left: 150px;">No Mundo Binário, você fica sabendo das novidades da tecnologia e do que está por vir em termos de avanço científico. <br>Conheça mais visitando as áreas de Tecnologias Mobile, Games, Pesquisas Científicas, Programação e Empresas.</p>
+            <h2>Veja as últimas notícias:</h2>
+            <figure class="movercentro">
+                <a href="todas.html#noticia1"><h3>Pesquisadores da Google ensinam rede neural a desenhar</h3></a>
+                <a href="todas.html#noticia1"><img id="img1" src="Imagens/desenho.jpg" width="650px" height="250px;"></a>
+                <figcaption>Usando o programa do Google “Quick, Draw!”, os desenvolvedores ensinaram a rede neural a desenhar em formato vetorial...</figcaption>
+            </figure> 
+            <figure class="movercentro">
+                <a href="todas.html#noticia2"><h3>Cientistas descobrem como fazer “upload de conhecimento” para o cérebro</h3></a>
+                <a href="todas.html#noticia2"><img src="Imagens/pesquisas%20cientificas%20n6.jpg" height="300" width="450"></a>
+                <figcaption>Pesquisadores alegam ter desenvolvido um simulador que pode enviar informações diretamente para o cérebro de uma pessoa e a ensiná-la novas habilidades em um curto período...</figcaption>
+            </figure> 
+            <figure class="movercentro">
+                <a href="todas.html#noticia3"><h3>Instagram supera Snapchat com função Stories</h3></a>
+                <a href="todas.html#noticia3"><img src="Imagens/insta_stories.jpg" width="500px"></a>
+                <figcaption>Graças à nova função, o Instagram superou o concorrente, chegando a 200 milhões de usuários diariamente, 50 milhões a mais que o Snapchat...</figcaption>
+            </figure> 
+            <p>Veja mais em "Todas as Notícias".</p>
+        </section>
+        <footer>
+            <a href="#topo"><button id="volte">Volte ao topo</button></a>
+            <p>Anna Carolina Hauy Kafrune - 31784887</p>
+            <p>Lia Kassardjian - 31750370</p>
+            <p>Turma: 01G11</p>
+        </footer>
+    </body>
+</html>

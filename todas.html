@@ -1,0 +1,501 @@
+<!Doctype html>
+<html lang="pt-br">
+    <meta charset="utf-8">
+    <head>
+        <title>MB - Todas as notícias</title>
+        <link rel="icon" href=imagens/Logo%20sem%20fundo.jpg type="image">
+        <link rel="stylesheet" type="text/css" href="folha_de_estilo.css">
+        <style>
+            h4{
+                margin-left: 70px;
+                margin-right: 70px;
+                margin-top: 0px;
+            }
+            pullquote#pq1 {
+                width: 40%;
+                float: right;
+                margin: 20px;
+                padding: 5px 0 5px 5px;
+                border: solid black;
+                border-width: 5px 0;
+                text-align: center;
+                margin-right: 70px;
+            }   
+            pullquote#pq2 {
+                width: 30%;
+                float: right;
+                margin: 30px;
+                padding: 5px 0 5px 5px;
+                border: solid black;
+                border-width: 5px 0;
+                text-align: center;
+                margin-right: 70px;
+            } 
+            .img_games{
+                float: right;
+                margin: 30px;
+                margin-right: 70px;
+                
+            }
+            .img_pesquisas{
+                float: right;
+                margin: 10px;
+                margin-right: 70px;
+            }
+            #img_games{
+                float: left;
+                margin: 30px;
+                height: 150px;
+                width: 275px;
+                border: 3px solid #000; 
+                margin-right: 70px;
+            }
+            #fig1{
+                width: 640px;
+                height: 202px;
+                float: none;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                border: 0.5px grey solid; 
+                padding: 5px;
+            }
+            #img2{
+                width: 125px;
+                height: 100px;
+                border: 0.5px grey solid; 
+                padding: 5px; 
+                float: none;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                
+            }
+            .img_empresas {
+                float: right;
+                margin: 30px;
+                margin-right: 70px;
+            }
+        </style>
+    </head>
+    <body>
+        <header id="topo">
+            <nav id="nav1">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="todas.html">Todas as notícias</a></li>  
+                    <li><a href="mobile.html">Tecnologias mobile</a></li> 
+                    <li><a href="games.html">Games</a></li> 
+                    <li><a href="pesquisas.html">Pesquisas científicas</a></li>
+                    <li><a href="programacao.html">Programação</a></li>
+                    <li><a href="empresas.html">Empresas</a></li>
+                    <li><a href="eventos.html">Eventos</a></li>
+                    <li><a href="fale_conosco.html">Fale conosco</a></li>
+                </ul>
+            </nav>
+            <a href="index.html" style="color: #0aaa00; text-decoration: none;"><img src="Imagens/logo1.jpg" width="770" height="250" id="logo"></a>  
+            <form class="moverdireita">
+                <input type="text" name="login" placeholder="Login" ><br>
+                <input type="password" name="password" placeholder="Senha"><br>
+                <input type="submit" name="submit" placeholder="Enviar" id="submit"><br><br>
+                <button id="cadastro"><a href="cadastro.html">Cadastre-se</a></button>
+            </form>
+        </header>
+        <nav id="nav2">
+            <h3>Todas as notícias</h3>
+            <h3>As 10 últimas notícias:</h3>
+            <ul>
+                <li><a href="#noticia1">Pesquisadores da Google ensinam rede neural a desenhar</a></li>
+                <li><a href="#noticia2">Cientistas descobrem como fazer “upload de conhecimento” para o cérebro</a></li>
+                <li><a href="#noticia3">Instagram supera Snapchat com função Stories</a></li>
+                <li><a href="#noticia4">Conhecimento sobre programação é diferencial no mercado de trabalho</a></li>
+                <li><a href="#noticia5">Motorola volta atrás com fones de ouvido</a></li>
+                <li><a href="#noticia6">Comunicação entre cérebros</a></li>
+                <li><a href="#noticia7">Programação na infância</a></li>
+                <li><a href="#noticia8">O novo Galaxy S8</a></li>
+                <li><a href="#noticia9">Tinta de célula solar</a></li>
+                <li><a href="#noticia10">Samsung é condenada a indenizar a Huawei em 36,4 milhões</a></li>
+                
+            </ul>
+        </nav>   
+        <section id="corpo">
+            <p id="leia_todas">Leia todos os artigos do site:</p>
+            
+            <!--notícia 1-->
+            <article id="noticia1">
+                <br>
+                <h2>Pesquisadores da Google ensinam rede neural a desenhar</h2>
+                <h5>|17/04/2017|</h5>
+                <br>
+                <p>Usando o programa do Google “Quick, Draw!”, os desenvolvedores ensinaram a rede neural a desenhar em formato vetorial através de categorias com mais de 70 mil desenhos.</p>
+                <p>O sistema aprendeu a desenhar e a unir partes de dados armazenados; David Ha, um dos responsáveis, afirmou: <q>Treinamos nosso modelo em um conjunto de dados de esboços desenhados à mão, cada um representado como uma sequência de ações motoras que controlam uma caneta: qual direção mover, quando levantar a caneta para cima e quando parar de desenhar</q>.</p>
+                <p>Além disso, o programa é capaz de reconhecer erros. A figura a seguir mostra os desenhos feitos à mão e, logo abaixo, a reconstrução feita pela rede neural; percebe-se que os erros do desenho foram corrigidos pela máquina, já que ela pode identificar que um porco não tem oito pernas e tampouco parece um caminhão.</p>
+                <figure id="fig1" style="margin-top: 15px; margin-bottom: 15px;">
+                    <img src="Imagens/desenho.jpg" alt="desenho" title="Comparação entre o desenho manual e a reconstrução virtual" id="img1">
+                    <figcaption style="text-align: center;padding:5px;">Comparação entre o desenho manual e a reconstrução virtual</figcaption>
+                </figure>
+                <br>
+                <p><strong>Fonte:</strong></p>
+                <p>https://olhardigital.uol.com.br/noticia/google-ensina-rede-neural-a-desenhar/67513 (Acesso em 17/04/2017)</p>
+                <br>
+            </article>
+            
+            <!--notícia 2-->
+            <article id="noticia2">
+                <br>
+                <h2>Cientistas descobrem como fazer “upload de conhecimento” para o cérebro</h2>
+                <h5>|Pesquisa em desenvolvimento|</h5>
+                <br>
+                <img class="img_pesquisas" src="imagens/pesquisas%20cientificas%20n6.jpg" width="350px" height="250">
+                <p class="textn1">Enviar conhecimento diretamente para o seu cérebro, exatamente como no filme de ficção científica Matrix, poderá em breve demandar um esforço semelhante ao de dormir, cientistas acreditam.</p>
+
+                <p>Pesquisadores alegam ter desenvolvido um simulador que pode enviar informações diretamente para o cérebro de uma pessoa e a ensiná-la novas habilidades em um curto período, comparando-o com a “imitação da arte pela vida”.</p>
+
+                <p>Eles acreditam que esse simulador pode ser o primeiro passo no desenvolvimento de uma software avançado que irá fazer do aprendizado instantâneo, ao estilo de Matrix, uma realidade.</p>
+
+                <p>No clássico da ficção científica, o protagonista Neo é capaz de aprender Kung Fu em segundos depois que essa arte marcial é carregada para o seu cérebro.</p>
+
+                <p>Pesquisadores da HRL Laboratories, com sede na Califórnia, dizem ter encontrado uma maneira de ampliar o aprendizado, só que em escala muito menor do que visto no filme de Hollywood.</p>
+
+                <p>Eles estudaram os sinais elétricos de um cérebro treinado de um piloto e então introduziram os dados de modo idêntico em indivíduos novatos, que aprenderam a pilotar um avião em um simulador de voo realista.</p>
+
+                <p>O estudo, publicado no periódico Frontiers in Human Neuroscience, descobriu que os indivíduos que receberam a estimulação cerebral via eletrodos implantados na cabeça melhoraram suas habilidades de piloto e aprenderam as tarefas 33% melhor que o grupo placebo.</p>
+                <br>
+                <p><strong>Fonte:</strong></p>
+                <p> http://www.universoracionalista.org</p>
+                <br>
+            </article>
+            
+            <!--notícia 3-->
+            <article id="noticia3">
+                <br>
+                <h2>Instagram supera Snapchat com função Stories</h2>
+                <h5>|17/04/2017|</h5>
+                <br>
+                <p class="textn1">De fato, o sucesso das tecnologias mobile depende de aplicativos e redes sociais como as famosas Instagram e Snapchat. Este possibilitava o envio de fotos que só poderiam ser vistas uma vez e, posteriormente, adicionou o serviço de Stories; já aquele, permitia que o usuário publicasse uma foto que seria vista por todos os seus seguidores e ficaria salva no seu perfil, podendo ser vista ilimitadamente.</p>
+
+                <p class="textn1">A função Stories, inicialmente criada pelo Snapchat, baseava-se na ideia de publicar uma foto que poderia ser vista por todos os contatos na rede social por um período de 24 horas, sem limite de visualizações. Em meio à concorrência, outras redes aderiram à moda, inclusive o Instagram.</p>
+
+                <p class="textn1">Graças à nova função, o Instagram superou o concorrente, chegando a 200 milhões de usuários diariamente, 50 milhões a mais que o Snapchat, considerando aqueles que fazem uso da Stories.</p>
+                <figure style="width:600px; margin: 20px auto 0px auto; text-align:center;">
+                    <img src="Imagens/insta_stories.jpg" alt="Stories do Instagram" width="600px;">
+                    <figcaption>Instagram faz sucesso com a nova função Stories.</figcaption>
+                </figure>
+                <br>
+                <p><strong>Fonte:</strong></p>
+                <p>https://www.tecmundo.com.br/instagram/115844-novo-lider-pedaco-instagram-tem-usuarios-snapchat.htm?utm_source=tecmundo.com.br&utm_medium=home&utm_campaign=ultimasnoticias (Acesso em 17/04/2017)</p>
+                <br>
+            </article> 
+            
+            <!--notícia 4-->
+            <article id="noticia4">
+                <br>
+                <h2>Conhecimento sobre programação é diferencial no mercado de trabalho</h2>
+                <h5>|17/04/2017|</h5>
+                <br>
+                <p>No mercado atual, quanto mais habilidades, melhor. Além de conhecer outros idiomas e fazer cursos sobre empreendedorismo, saber programar é uma habilidade muito bem-vinda e abre portas para boas oportunidades de trabalho.</p>
+                <p>Vivemos em um mundo em que a tecnologia toma conta de diversos aspectos da vida; nessa realidade em que estamos, entender como funciona a programação é muito importante para o sucesso profissional.</p>
+                <p>Nos Estados Unidos da América, por exemplo, há incentivos para que crianças, desde pequenas, tenham contato com a lógica e a programação, porque, de fato, a procura por conhecedores da área só aumenta.</p>
+                <p>Especialistas da área de Ciência da Computação defendem que a programação deve ser aprendida não para ser programador, mas para desenvolver lógica, resolução de problemas, criatividade, matemática e até mesmo inglês.</p>
+                <p>Portanto, espera-se que o profissional já chegue no mercado sabendo usar um computador e programar; desenvolver tal habilidade é a chave para o sucesso na profissão.</p>
+                <br>
+                <p><strong>Fonte:</strong></p>
+                <p>http://gshow.globo.com/TV-Tem/Revista-de-Sabado/noticia/2017/03/programacao-pra-computadores-e-area-de-estudo-do-momento.html (Acesso em 17/04/2017)</p>
+                <br>
+            </article> 
+            
+            <!--notícia 5-->
+            <article id="noticia5">
+                <br>
+                <h2>Motorola volta atrás com fones de ouvido</h2>
+                <h5>|17/04/2017|</h5>
+                <br>
+                <p class="textn1">A tendência no mercado de tecnologias mobile é desaparecer com as entradas P2 para fones de ouvido. Alguns usuários preferem a praticidade do fone sem fio, porém muitos outros pedem a volta da entrada para fones.</p>
+                <p>Em sua nova linha de produtos Moto Z, a Motorola havia retirado de seus aparelhos o jack para fones, mas houve polêmica, já que muitos usuários preferem a entrada P2 no aparelho; após críticas, no novo Moto Z2 Force, ela voltou atrás e está trazendo de volta os fones com fio.</p>
+                <br>
+                <p><strong>Fonte:</strong></p>
+                <p>https://www.mobilebit.com.br/moto-z2-force-entrada-fones-de-ouvido/ (Acesso em 17/04/2017)</p>
+                <br>
+            </article> 
+            
+            <!--notícia 6-->
+            <article id="noticia6">
+                <br>
+                <h2>Comunicação entre cérebros</h2>
+                <h5>|Pesquisa em desenvolvimento|</h5>
+                <br>
+                <img class="img_pesquisas" src="imagens/pesquisas%20cientificas.jpg" width="250px" height="150">
+                <p class="textn1">Uma equipe de cientistas de Harvard está desenvolvendo uma forma extremamente avançada de comunicação entre humanos e até entre humanos e animais. Já há maneiras de ligar dois cérebros e estabelecer comunicação neural capaz de controlar o corpo de outra pessoa ou realizar uma espécie de conversa por ‘telepatia’.</p>
+                <p>Os cientistas da renomada universidade norte-americana já conseguiram realizar experimentos com essa tecnologia em animais, e os resultados são promissores.</p>
+                <br>
+                <p><strong>Fontes:</strong></p>
+                <p>https://www.tecmundo.com.br/</p>
+                <br>
+            </article>
+            
+            <!--notícia 7-->
+            <article id="noticia7">
+                <br>
+                <pullquote id="pq1">
+                    <h3 style="color: #000;">Happy Code</h3>
+                    <p><q>Somos uma escola de tecnologia e inovação voltada para crianças e adolescentes de 5 a 17 anos.
+                    Nossa metodologia de ensino é baseada no conceito global STEAM – Science, Technology, Engineering, Arts and Math, que une o conteúdo de disciplinas fundamentais, formando alunos mais preparados e capacitados para os desafios do dia a dia.
+                    </q></p>
+                    <figure>
+                        <img src="Imagens/happy_code.png" alt="Happy Code" title="Happy Code" id=img2>
+                    </figure>
+                    <p>Conheça mais no site: <a href="http://www.happycode.com.br/" target="_blank">http://www.happycode.com.br/</a></p>
+                </pullquote>
+                <h2>Programação na infância</h2>
+                <h5>|17/04/2017|</h5>
+                <br>
+                <p>A escola de competências digitais especializada em crianças e adolescentes entre 6 e 17 anos, Happy Code, está oferecendo aulas de programação (iniciadas em 3 de abril) em uma plataforma para que os alunos aprendam a manipular o jogo Minecraft na linguagem JAVA.</p>
+                <p>O projeto permite que os jovens tenham contato desde cedo com a ciência da computação de maneira divertida e lúdica. Além disso, permite o desenvolvimento de conhecimentos sobre a linguagem, sua sintaxe e sua lógica; tais fatores são considerados diferenciais no mercado de trabalho atual.</p>
+                <br>
+                <p><strong>Fonte:</strong></p>
+                <p>https://www.tecmundo.com.br/cursos/115345-curso-online-programacao-java-minecraft-modding-oferecido-gratis.htm (Acesso em 17/04/2017)</p>
+                <br>
+            </article>
+            
+            <!--notícia 8-->
+            <article id="noticia8">
+                <br>
+                <h2>O novo Galaxy S8</h2>
+                <h5>|12/04/2017|</h5>
+                <br>
+                <p class="textn1">A Samsung lançará neste mês de abril seu mais novo smartphone, o Galaxy S8. Tal aparelho possui capacidade de processamento suficiente para executar jogos do GameCube (console da Nintendo, lançado em 2001) e é mais resistente que o aparelho da concorrente Apple, o iPhone 7. Desde que as pré-vendas foram abertas na Coreia do Sul, o Galaxy S8 já vendeu 5,5 vezes mais que seu antecessor, o Galaxy S7. </p>
+                <figure style="float:right; border:0.5px grey solid; padding:5px; margin-left:15px; margin-right: 70px;">
+                        <img src="Imagens/foto_noticia_S8.jpg" alt="foto" title="Foto tirada com o Galaxy S8, por Matthew Cattel" width="450" height="300">
+                        <figcaption style="text-align:center">Foto tirada com o Galaxy S8, por Matthew Cattel.</figcaption>
+                </figure>
+                <p>Além disso, o novo smartphone destaca-se pela qualidade das imagens; a câmera principal é de 12 megapixels com tecnologia Dual Pixel, enquanto a frontal apresenta 8 megapixels com autofoco. Ao lado, vemos uma foto tirada com o Galaxy S8 pelo fotógrafo profissional Matthew Cattell.</p>
+                <p>Dentre as demais qualidades do aparelho, encontram-se: tela de 5,8 polegadas (6,2 no Galaxy S8+), 4 GB de RAM, 64 GB de memória, resistência à água e à poeira, leitor de íris, de reconhecimento fácil e de impressões digitais e sistema operacional Android 7.0 Nougat.</p>
+                <br>
+                <p><strong>Fontes:</strong></p>
+                <p>http://www.tudocelular.com/android/noticias/n91356/samsung-galaxy-s8-camera-exemplos-oficiais.html (Acesso em 12/04/2017)</p>
+                <p>http://exame.abril.com.br/tecnologia/galaxy-s8-e-tao-poderoso-quanto-videogame-da-nintendo/ (Acesso em 12/04/2017)</p>
+                <p>https://www.tecmundo.com.br/samsung-galaxy-s8/115733-vendas-galaxy-s8-5x-maiores-galaxy-s7.htm (Acesso em 12/04/2017)</p>
+                <br>
+            </article>
+            
+            <!--notícia 9-->
+            <article id="noticia9">
+                <br>
+                <h2>Tinta de célula solar</h2>
+                <h5>|Pesquisa em desenvolvimento|</h5>
+                <br>
+                <img class="img_pesquisas" src="imagens/pesquisas%20cientificas%20n3.jpg" width="250px" height="150">
+                <p class="textn1">Pesquisadores da Universidade de Notre Dame, nos Estados Unidos, desenvolveram uma tinta que, ao aplicada em uma superfície condutora de eletricidade, consegue captar a energia solar a transformá-la em energia elétrica para alimentar qualquer circuito eletrônico.</p>
+                <p>A tinta solar foi criada a partir de nanopartículas de dióxido de titânio misturadas com sulfureto de cádimo e mergulhadas em uma solução de água e álcool. Ao fim do processo, que não requer nenhum material especial, obteve-se uma espécie de pasta que pode ser aplicada como uma tinta. Em resumo, você poderá no futuro abastecer sua casa de energia solar pintando o teto metálico da sua casa. </p>
+                <br>
+                <p><strong>Fontes:</strong></p>
+                <p>https://www.tecmundo.com.br/</p>
+                <br>
+            </article>
+            
+            <!--notícia 10-->
+            <article  id="noticia10">
+                <br>
+                <h2>Samsung é condenada a indenizar a Huawei em 36,4 milhões</h2>
+                <h5>|07/04/2017|</h5>
+                <br>
+                <p class="textn1">A Samsung foi condenada a pagar 80 milhões de yuan (o equivalente a R$ 36,4 milhões) à Huawei por violação de patente na China.</p>
+
+                <p>O processo envolve interfaces de usuário referentes a coisas como design de widgets e disposição de ícones, e faz parte de uma guerra entre as duas companhias.</p>
+
+                <p>A encrenca começou em maio passado, quando a Huawei processou a Samsung nos Estados Unidos e na China por uso não autorizado de patentes sobre o uso de padrões 4G. A coreana contra-atacou processando a marca chinesa sob o argumento de que o celular Mate 8 viola as suas patentes.</p>
+
+                <p>Apesar de ter perdido uma batalha, a Samsung não parece disposta a aceitar o resultado, já que informou, em nota enviada à ZDNet, que pretende recorrer da decisão.</p>
+                <p><strong>Fonte:</strong></p>
+                
+                <p>https://www.tecmundo.com.br/</p>
+                <br>
+            </article>
+            
+            <!--notícia 11-->
+            <article id="noticia11">
+                <br>
+                <h2>Nanofibra</h2>
+                <h5>|Pesquisa em desenvolvimento|</h5>
+                <br>
+                <p class="textn1">A nanofibra é um material fibroso extremamente fino (menos que 100 nanômetros) que funciona de maneira muito eficaz para criar filtros para materiais pequenos. Um exemplo disso é o sal, uma vez que os grãos são muito grandes para passar através dos furos de uma tela feita de nanofibras.</p>
+                <figure style="margin: 30px 200px;">
+                    <img src="imagens/pesquisas%20cientificas%20n4.jpg" width="600px" height="300">
+                </figure>
+                <p>No futuro, as nanofibras poderão ser usadas em filtros para transformar a água dos oceanos em potável: a solução para nossos problemas com a escassez de água. A tecnologia já existe, mas o custo de produção ainda é alto demais.</p>
+                <br>
+                <p><strong>Fontes:</strong></p>
+                <p>https://www.tecmundo.com.br/</p>
+                <br>
+            </article>
+            
+            <!--notícia 12-->
+            <article  id="noticia12">
+                <br>
+                <h2>'Uncharted 4' vence prêmio de melhor jogo no BAFTA Games Awards 2017</h2>
+                <h5>|06/04/2017|</h5>
+                <br>
+                <img src="imagens/games%20n1.jpg" width="225px" height="125px" class="img_games">
+                <p class="textn1">O game de ação "Uncharted 4: A Thief's End" venceu nesta quinta-feira (6) o prêmio de melhor jogo no BAFTA Games Awards 2017, premiação organizada pela Academia Britânica de TV e Artes Cinematográficas.</p>
+                <p>O grande vencedor em números foi o bizarro e obscuro "Inside", jogo de plataforma dos criadores de "Limbo". "Inside" foi indicado em sete categorias e ganhou em quatro: realização artística, melhor game design, melhor narrativa e melhor propriedade original.</p>
+                <p>Outros destaques são "Overcooked", game multiplayer que simula o funcionamento de uma cozinha e levou dois prêmios, de melhor jogo britânico e melhor jogo família; e "Pokémon Go", que venceu como melhor jogo para dispositivos móveis.</p>
+                
+                <br>
+                <p><strong>Fonte:</strong></p>
+                
+                <p>https://www.tecmundo.com.br/</p>
+                <br>
+            </article>
+            
+            <!--noticia 13-->
+            <article  id="noticia13">
+                <br>
+                <h2>Twitter cria versão 'Lite' para usuários com conexão de internet limitada</h2>
+                <h5>|06/04/2017|</h5>
+                <br>
+                <pullquote id="pq2">
+                    <p><b>Características do Twitter Lite segundo o site: 
+                    <a href=https://lite.twitter.com/ target="_blank">https://lite.twitter.com/</a>:</b></p>
+                    <p>"Fast to install; Quick and light; Automatic updates; Control your data; One-tap access from your home screen; Push Notifications; Offline access; Safe browsing."</p>
+                </pullquote>
+                <p class="textn1">O Twitter lançou nesta quarta-feira (5) uma versão mais rápida do seu serviço voltada a pessoas com conexões ruins de internet ou com pacotes de dados limitados, na esperança de captar usuários em mercados emergentes.</p>
+                <p>Chamada de Twitter Lite, a nova versão será destinada em grande parte a usuários de fora dos Estados Unidos. O Twitter Lite funciona através de um navegador web, não um aplicativo de telefone autônomo, mas sua aparência e funcionalidade são quase idênticas ao que os usuários do aplicativo experimentam, de acordo com uma visualização mostrada à Reuters.</p>
+                <p>O lançamento vem na esteira de produtos similares de outras empresas de tecnologia dos EUA. O Facebook lançou o Facebook Lite em 2015 e na terça-feira, o Youtube, da Alphabet, lançou um aplicativo móvel projetado para a Índia.</p>
+                <p>O Twitter, com sede em San Francisco, está atrás dessas empresas na construção de uma base de usuários. Ele tinha 319 milhões de usuários ativos médios mensais no final do ano passado, um aumento de 4% ano-a-ano, mas ainda uma fração dos 1,9 bilhão de usuários do Facebook.</p>
+                
+                <p><strong>Fonte:</strong></p>
+                
+                <p>https://www.tecmundo.com.br/</p>
+                <br>
+            </article>
+            
+            <!--notícia 14-->
+            <article id="noticia14">
+                <br>
+                <h2>Startup chinesa pode revolucionar o mundo com celular de tela dobrável</h2>
+                <h5>|Pesquisa em desenvolvimento|</h5>
+                <br>
+                <img class="img_pesquisas" src="imagens/pesquisas%20cientificas%20n4.1.jpg" width="400px" hight="400px">
+                <p class="textn1">É curioso notar como diferentes produtos criados com novas tecnologias podem ter impactos completamente diferentes – e às vezes até imprevisíveis – nos consumidores. Na teoria, um smartphone que tem uma tela completamente dobrável e pode ser usado no pulso, como um relógio, deveria cair nas graças dos fanáticos por aparelhos tecnológicos. Mas será que realmente vai?</p>
+                <p>É o desafio que uma pequena startup chinesa tem pela frente. Conhecida como Moxi Group, a empresa revelou para a imprensa imagens de um protótipo bastante interessante: trata-se de um smartphone que pode ser usado tanto em sua forma reta, como qualquer outro dispositivo desse tipo, quanto dobrado, em forma circular, assim como um relógio de pulso. Mesmo dessa maneira, a tela continuaria funcionando normalmente.</p>
+                <p>Telas flexíveis e dobráveis não são nenhuma novidade por aí, se você tem acompanhado as últimas feiras conceituadas no assunto. Porém, ainda não foi lançado nenhum celular que fosse completamente dobrável e, mais importante, prático de se usar. O Moxi Group pretende ser a primeira empresa a comercializar esse tipo de dispositivo na China ainda em 2016, com uma tiragem de 100 mil aparelhos, cada um deles custando ¥ 5 mil, aproximadamente R$ 2.730.</p>
+                <p>Apesar das belas imagens divulgadas pela startup chinesa, o display desse primeiro modelo será em preto em branco, mas o Moxi Group já informou que tem a pretensão de lançar um dispositivo com tela colorida até o ano de 2018. Toda a tecnologia por trás dos visores flexíveis se baseia em um material extremamente versátil e, para quem não entende muito bem suas propriedades científicas, quase mágico: o grafeno.</p>
+                <p>O grafeno é considerado o material mais fino, mais leve, mais forte, mais transparente e que melhor conduz calor e eletricidade conhecido pela ciência. É claro, isso deve fazer dele um dos mais caros também e por isso sua utilização comercial ainda é tão restrita. Ainda assim, um protótipo desse dispositivo foi mostrado para o público durante o Nanping International Conventional Center, que acontece em Chongqing, na China, mas não havia sido possível descobrir o responsável pelo incrível gadget.</p>
+                <p>Agora sabemos que tudo era obra do Moxi Group, que revelou essa semana estarem quase prontos para comercializar o produto, mesmo que em uma versão menos avançada do que o que foi mostrado para os consumidores na feira chinesa.</p>
+                <p>Se essa nova tecnologia adotada dessa maneira vai colar ou não, só o futuro poderá dizer. Ainda assim, é um passo brilhante que deve ser levado em conta e que pode ser uma visão de como vamos utilizar nossos smartphones em algo em torno de 10 anos, basta a praticidade desse dispositivo meio celular, meio smartwatch cair no gosto dos consumidores.</p>
+                <br>
+                <p><strong>Fontes:</strong></p>
+                <p> http://www.universoracionalista.org</p>
+                <br>
+            </article>
+            
+            <!--noticia 15-->
+            <article id="noticia15">
+                <br>
+                <h2>Project Scorpio é quatro vezes mais rápido que Xbox One, diz site</h2>
+                <h4>Lançamento está previsto para o final de 2017</h4>
+                <h5>|06/04/2017|</h5>
+                <br>
+                <img class="img_games" src="imagens/games%20n1.1.jpg" width="550px" height="300px">
+                <p class="textn1">O Project Scorpio, codinome da versão mais poderosa do videogame Xbox One, revelada na feira E3 2016, será quatro vezes mais rápido que o modelo original. As informações e análises foram divulgadas nesta quinta-feira (6) pelo site especializado Digital Foundry, que teve acesso direto às especificações técnicas do console.</p>
+                <p>O aparelho chega para bater de frente com o PlayStation 4 Pro, da Sony, considerado o primeiro console de meia geração. Ou seja: mesma plataforma, mesmo sistema e jogos, mas em uma máquina turbinada.</p>
+                <p>O lançamento do Scorpio está previsto para o final do ano, de acordo com a Microsoft, que promete mostrar o aparelho pela primeira vez durante a E3 2017.</p>
+                <br>
+                <p><strong>Fonte:</strong></p>
+                
+                <p>https://www.tecmundo.com.br/</p>
+                <br>
+            </article> 
+            
+            <!--notícia 16-->
+            <article  id="noticia16">
+                <br>
+                <h2>Google é a marca mais influente entre os brasileiros, diz pesquisa</h2>
+                <h5>|06/04/2017|</h5>
+                <br>
+                <img class="img_empresas" src="imagens/empresas%20n1.jpg" height="330" width="480">
+                <p class="textn1">Uma pesquisa realizada pela empresa de marketing Ipsos mostra que o Google é a marca mais influente entre os brasileiros. A segunda posição do ranking também é ocupada por uma empresa da Alphabet: o YouTube, seguido pelo Facebook, pela Microsoft e pela Samsung. A pesquisa, realizada em quase 20 países, avalia as marcas e seu poder de influência no cotidiano e no comportamento dos consumidores. </p>
+
+                <p class="textn1">No Brasil, é feita pela web com mais de duas mil pessoas e analisa como o público classifica uma marca dentro de quase 60 atributos, que medem, por exemplo, se a empresa faz parte do cotidiano dos entrevistado, se entede suas necessidades, se inspira confiança, entre outros detalhes. O objetivo é entender como cinco dimensões: liderança/inovação, confiança, presença, responsabilidade social e engajamento estão correlacionadas com a influência.</p>
+
+                <p class="textn1">"A pesquisa aponta que as gigantes da tecnologia lideram o ranking por se destacarem principalmente no driver de Liderança e Inovação, já que para Google e YouTube, que são os primeiros colocados, o peso da dimensão Liderança e Inovação representou 44% da influência. Isto demonstra que, na atual conjuntura, os participantes elegeram marcas de referência que estabelecem um vínculo de confiança e que transformam a vida dos brasileiros através da tecnologia e de novos formatos de entretenimento. É interessante ver o quanto a dimensão Responsabilidade Social é valorizada no cenário de crise moral e política pela qual passa o Brasil”, explica Leda Kayano, Managing Director da Ipsos Marketing.</p>
+
+                <p class="textn1">"Na América do Norte, o Windows (todas as versões) manteve a liderança em todas as plataformas, com 39,5%, seguido pelo iOS (25,7%) e pelo Android (21,2%). O mesmo acontece na Europa, onde o Windows (51,7%) tem mais do que o dobro do Android (23,6%). No entanto, na Ásia, o Android tem 52,2%, bem mais do que os 29,2% do Windows", explica a empresa que realizou a pesquisa.</p>
+
+                <p class="textn1">Excluindo-se o tráfego de dispositivos móveis, no entanto, o sistema da Microsoft mantém a liderança, correspondendo a 84% dos dispositivos.</p>
+                <br>
+                <p><strong>Fonte:</strong></p>
+                
+                <p>https://www.tecmundo.com.br/</p>
+                <br>
+            </article>
+            
+            <!--notícia 17-->
+            <article id="noticia17">
+                <br>
+                <h2>Mulheres ampliam vantagem como o maior público de games no Brasil, diz pesquisa</h2>
+                <h5>|04/04/2017|</h5>
+                <br>
+                <img class="img_games" src="imagens/games%20n3.jpg" width="600px">
+                <p class="textn1">As mulheres ampliaram vantagem sobre os homens como o maior público de games no Brasil, segundo a pesquisa Game Brasil 2017, divulgada nesta terça-feira (4). A fatia da ala feminina aumentou 1 ponto percentual em relação ao ano passado e passou a representar 53,6% dos jogadores do país.</p>
+                <p>Esta é a quarta edição do levantamento, que busca traçar o perfil dos brasileiros que jogam videogame. O estudo é feito pela agência de tecnologia interativa Sioux, a empresa de pesquisa especializada em consumo Blend New Research e a Game Lab, divisão da ESPM dedicada à experimentação e pesquisa de jogos.</p>
+                <p>A Game Brasil 2017 ouviu 2.947 pessoas de 26 estados e do Distrito Federal entre os dias 1 e 16 de fevereiro de 2016.</p>
+                <p>A forte presença das mulheres no mundo dos jogos foi captada desde a primeira edição da pesquisa. Agora, os editores do documento, afirmam que a presença delas se consolidou já que representam a maioria dos jogadores pelo segundo ano consecutivo. Apesar disso, os games não são a primeira opção de entretenimento das mulheres. Cinema, sair com amigos e redes sociais vêm antes.</p>
+                <p>Quase seis em cada dez (59%) se dizem jogadoras casuais. A plataforma preferida é o smartphone para 53,3%, graças a sua mobilidade. O tempo médio gasto com games por elas é de uma a duas horas por semana. Quando o assunto é console, o Xbox 360 é o mais citado por 37%.</p>
+                <p>Os smartphones continuam a ser a plataforma mais popular. É onde jogam 77,9% dos entrevistados. Os aparelhos móveis são seguidos por computadores (66,4%) e consoles (49%). Os índices são sobrepostos porque os jogadores brasileiros não são cativos de apenas um dispositivo –74% dos entrevistas optam por mais de um deles.</p>
+                <p>Já quando o tópico é o aparelho preferido para jogar, o smartphone é apontado por 37,6% dos gamers, enquanto consoles são citados por 28,8% e computadores, por 26,4%. Três em cada quatro entrevistados afirmam ter o costume de baixar aplicativos de jogos.</p>
+                <p>O segundo videogame da Microsoft já tem mais de 10 anos de vida, mas continua sendo o console mais popular entre os brasileiros. De acordo com a Game Brasil 2017, 44,2% dos entrevistados usam um Xbox 360, seguido do PlayStation 3 (29,2%) e PS2 (26,5%).</p>
+                <p>No quesito preferência, o PlayStation 4 assumiu a ponta, com 30,7% das citações, seguido pelo Xbox 360, com 28,6%.</p>
+                <br>
+                <p><strong>Fonte:</strong></p>
+                
+                <p>g1.globo.com/tecnologia/</p>
+                <br>
+            </article>
+            
+            <!--notícia 18-->
+            <article id="noticia18">
+                <br>
+                <h2>DNA como meio de armazenamento</h2>
+                <h5>|Pesquisa em desenvolvimento|</h5>
+                <br>
+                <p class="textn1">A forma mais rápida dos meios de armazenamento populares hoje é o SSD, o disco de estado sólido que equipa os chamados ultrabooks. Porém, estudos com novas tecnologias de armazenamento de informação já indicam que podemos guardar bits – informação digital – no DNA.</p>
+                <p>Cientistas conseguiram gravar em moléculas de DNA um arquivo de áudio de um discurso de Martin Luther King Jr., uma foto, uma cópia do artigo científico de Watson e Crick sobre DNA e 154 sonetos de Shakespeare. Depois, eles foram capazes de recuperar todos os dados com 99,99% de precisão, tão eficiente quanto os HDs ou SSDs de hoje.</p>
+                <p>Quando a tecnologia estiver popularizada, poderemos gravar terabytes de informação em unidades microscópicas de armazenamento, fazendo computadores e outros dispositivos com memória muito menores e mais leves também.</p>
+                <br>
+                <p><strong>Fonte:</strong></p>
+                <p>https://www.tecmundo.com.br/</p>
+                <br>
+            </article> 
+            
+            <!--noticia 19-->
+            <article  id="noticia19">
+                <br>
+                <h2 id="4noticia">Windows perde o posto de sistema operacional mais usado do mundo</h2>
+                <h5>|03/04/2017|</h5>
+                <br>
+                <img class="img_empresas" src="imagens/empresas%20n2.png" height="330" width="480">
+                <p class="textn1">O Windows acaba de perder o posto de sistema operacional mais popular. Uma pesquisa divulgada pela StatCounter mostra que o Android, sistema operacional do Google, ultrapassou no último mês de março o sistema da Microsoft em acessos à internet, com 37,93% de utilização, enquanto o Windows ficou com 37,91%.</p>
+
+                <p class="textn1">Os dados foram coletados de uma amostra que analisou a origem do tráfego de mais de três milhões de sites e páginas com mais de 15 bilhões de visualizações por mês.</p>
+
+                <p class="textn1">Essa é a primeira vez, desde os anos 80, que o Windows perde seu posto, de acordo com Aodhan Cullen, CEO da StatCounter. O valor mostra o crescimento do Android, principamente, em mercado asiático.</p>
+
+                <p class="textn1">"Na América do Norte, o Windows (todas as versões) manteve a liderança em todas as plataformas, com 39,5%, seguido pelo iOS (25,7%) e pelo Android (21,2%). O mesmo acontece na Europa, onde o Windows (51,7%) tem mais do que o dobro do Android (23,6%). No entanto, na Ásia, o Android tem 52,2%, bem mais do que os 29,2% do Windows", explica a empresa que realizou a pesquisa.</p>
+
+                <p class="textn1">Excluindo-se o tráfego de dispositivos móveis, no entanto, o sistema da Microsoft mantém a liderança, correspondendo a 84% dos dispositivos.</p>
+                <br>
+                <p><strong>Fonte:</strong></p>
+                
+                <p>https://www.tecmundo.com.br/</p>
+                <br>
+            </article>
+            
+        </section>
+        <footer>
+            <a href="#topo"><button id="volte">Volte ao topo</button></a>
+            <p>Anna Carolina</p>
+            <p>Lia Kassardjian</p>
+        </footer>
+    </body>
+</html>

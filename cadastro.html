@@ -1,0 +1,90 @@
+<!Doctype html>
+<html lang="pt-br">
+    <meta charset="utf-8">
+    <head>
+        <title>MB - Cadastro</title>
+        <link rel="icon" type="image"  href="imagens/Logo%20sem%20fundo.jpg">
+        <link rel="stylesheet" type="text/css" href="folha_de_estilo.css">
+        <style>
+            section#corpo{
+                padding-top: 20px;
+            }
+            form{
+                width: 500px;
+                margin: 5px auto;
+                border: 2px solid #006400;
+                font-weight: bold;
+                color: #494949;
+            }
+            fieldset{
+                width: 500px;
+                margin: 0px auto;
+                border: 0px;
+            }
+            fieldset input{
+                position: absolute;
+                left: auto; 
+            }
+            #novidades{
+                margin-top: 50px; 
+                margin-left: 30px;
+            }
+            input#submit, input#submit:hover, input#submit:focus{
+                margin-top: 20px;
+            }   
+        </style>
+    </head>
+    <body>
+        <header id="topo">
+            <nav id="nav1">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="todas.html">Todas as notícias</a></li>  
+                    <li><a href="mobile.html">Tecnologias mobile</a></li> 
+                    <li><a href="games.html">Games</a></li> 
+                    <li><a href="pesquisas.html">Pesquisas científicas</a></li>
+                    <li><a href="programacao.html">Programação</a></li>
+                    <li><a href="empresas.html">Empresas</a></li>
+                    <li><a href="eventos.html">Eventos</a></li>
+                    <li><a href="fale_conosco.html">Fale conosco</a></li>
+                </ul>
+            </nav>
+            <a href="index.html" style="color: #0aaa00; text-decoration: none;"><img src="Imagens/logo1.jpg" width="770" height="250" id="logo"></a> 
+        </header>
+        <section id="nav2">
+            <h3>Faça seu cadastro:</h3>
+        </section>
+        <section id="corpo">
+            <form>
+                <fieldset>
+                    <label for="name" style="margin-left:100px;">Nome completo:</label>
+                    <input type="text" name="name" required="required">
+                    <br><br>
+                    <label for="user" style="margin-left:90px;">Nome de usuário:</label>
+                    <input type="text" name="user" required="required">
+                    <br><br>
+                    <label for="password" style="margin-left:171px;">Senha:</label>
+                    <input type="password" name="password" required="required">
+                    <br><br>
+                    <label for="conf_pass" class="label3" style="margin-left: 67px;">Confirme sua senha:</label>
+                    <input type="password" name="conf_pass" required="required">
+                    <br><br>
+                    <label for="email" style="margin-left: 173px;">E-mail:</label>
+                    <input type="email" name="email" required="required">
+                    <br><br>
+                    <label for="conf_email" style="margin-left: 73px;">Confirme seu e-mail:</label>
+                    <input type="email" name="conf_email" required="required">
+                </fieldset>
+                <section id="novidades">
+                    <p><input type="checkbox" name="novidades" value="sim">Desejo receber novidades por e-mail.</p>
+                </section>
+                <input type="submit" name="enviar" placeholder="Enviar" id="submit">
+            </form>
+        </section>
+        <footer>
+            <a href="#topo"><button id="volte">Volte ao topo</button></a>
+            <p>Anna Carolina</p>
+            <p>Lia Kassardjian</p>
+        </footer>
+    </body>
+</html>

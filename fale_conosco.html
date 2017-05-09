@@ -1,0 +1,115 @@
+<!Doctype html>
+<html lang="pt-br">
+    <meta charset="utf-8">
+    <head>
+        <title>MB - Fale conosco</title>
+        <link rel="icon" type="image"  href="imagens/Logo%20sem%20fundo.jpg">
+        <link rel="stylesheet" type="text/css" href="folha_de_estilo.css">
+        <style>
+            section#corpo{
+                padding-top: 20px;
+            }
+            article{
+                margin-top: 20px;
+                margin-bottom: 20px;
+            }
+            form#comentario{
+                margin-left: 70px;
+                margin-bottom: 20px;
+            }
+            textarea{
+                margin: 10px;
+                padding: 10px;
+            }
+            input#enviar{
+                background-color: #aacbaa;
+                color: #006400;
+                font-family: Arial, Verdana, sans-serif;
+                font-size: 90%;
+                font-weight: bold;
+                border: 2px solid #006400;
+                border-radius: 5px;
+                margin-left: 10px;
+                margin-top: 0px;
+            }
+            input#enviar:hover, input#enviar:focus{
+                background-color: #006400;
+                color: #aacbaa;
+                font-family: Arial, Verdana, sans-serif;
+                font-size: 90%;
+                font-weight: bold;
+                border: 2px solid #006400;
+                border-radius: 5px;
+                margin-left: 10px;
+                margin-top: 0px;
+            }
+            a#mailto{
+                text-decoration: none;
+                color: #006400;
+                font-weight: bold;
+            }
+            a#mailto:hover{
+                text-decoration: underline;
+                color: #006400;
+                font-weight: bold;
+            }
+        </style>       
+    </head>
+    <body>
+        <header id="topo">
+            <nav id="nav1">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="todas.html">Todas as notícias</a></li>  
+                    <li><a href="mobile.html">Tecnologias mobile</a></li> 
+                    <li><a href="games.html">Games</a></li> 
+                    <li><a href="pesquisas.html">Pesquisas científicas</a></li>
+                    <li><a href="programacao.html">Programação</a></li>
+                    <li><a href="empresas.html">Empresas</a></li>
+                    <li><a href="eventos.html">Eventos</a></li>
+                    <li><a href="fale_conosco.html">Fale conosco</a></li>
+                </ul>
+            </nav>
+            <a href="index.html" style="color: #0aaa00; text-decoration: none;"><img src="Imagens/logo1.jpg" width="770" height="250" id="logo"></a>  
+            <form class="moverdireita">
+                <input type="text" name="login" placeholder="Login" ><br>
+                <input type="password" name="password" placeholder="Senha"><br>
+                <input type="submit" name="submit" placeholder="Enviar" id="submit"><br><br>
+                <button id="cadastro"><a href="cadastro.html">Cadastre-se</a></button>
+            </form>
+        </header>
+        <section id="nav2">
+            <h3>Entre em contato conosco e envie sugestões de melhorias para o nosso site.</h3>
+        </section>
+        <section id="corpo">
+            
+            <article>
+                <h2>Quem somos nós?</h2>
+                <p>Somos estudantes do 1º semestre de Ciência da Computação da Universidade Presbiteriana Mackenzie. Orientadas pela professora Fabiana A. S. Mateus, contruímos esse site com o intuito de aprender mais sobre desenvolvimento de sites em front-end. Esperamos que essa página traga resultados satisfatórios e agradecemos a visita de cada usuário.</p>
+            </article>
+
+            <article>
+                <h2>Sugestões</h2>
+
+                <form id="comentario">
+                    <label for="comments">Para enviar sugestões, faça login no site e escreva abaixo suas recomendações:</label>
+                    <br>
+                    <textarea name="comments" id="comments"></textarea>
+                    <br>
+                    <input type="submit" placeholder="Enviar" id="enviar">
+                </form>
+            </article>
+
+            <article>
+                <h2>Nosso contato</h2>
+                <p>Para entrar em contato diretamente conosco, envie um email para <a href="mailto:mb.mundobinario@gmail.com" id="mailto">mb.mundobinario@gmail.com</a>.</p>
+            </article>
+            
+        </section>
+        <footer>
+            <a href="#topo"><button id="volte">Volte ao topo</button></a>
+            <p>Anna Carolina</p>
+            <p>Lia Kassardjian</p>
+        </footer>
+    </body>
+</html>
